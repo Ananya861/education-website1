@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Input</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Enter Your Details</h2>
+  <form action="suggestions.html" method="GET">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Stream:</label><br>
+    <select name="stream" required>
+      <option value="Science">Science</option>
+      <option value="Commerce">Commerce</option>
+      <option value="Arts">Arts</option>
+    </select><br><br>
+
+    <label>Percentage:</label><br>
+    <input type="number" name="marks" required><br><br>
+
+    <label>Interest (Optional):</label><br>
+    <input type="text" name="interest"><br><br>
+
+    <button type="submit">Get Suggestions</button>
+  </form>
+</body>
+</html>

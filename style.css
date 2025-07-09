@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #004080;
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+ul {
+  list-style-type: square;
+  text-align: left;
+  max-width: 700px;
+  margin: auto;
+}
+
+button {
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0088cc;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.filters {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.filters select,
+.filters input {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+}
+/* College Cards Layout */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Filters Styling */
+.filters {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.filters select,
+.filters input {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  width: 200px;
+}
+.content-section {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h3 {
+  margin-top: 25px;
+  color: #004080;
+}
+input[type=number] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

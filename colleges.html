@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Top Engineering Colleges - EduGuide</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="colleges.html">Colleges</a>
+    <a href="eligibility.html">Eligibility</a>
+    <a href="kcet.html">KCET Rank</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Top Colleges Section -->
+  <section class="form-section">
+    <h2>Top Engineering Colleges in Karnataka</h2>
+
+    <!-- Filters -->
+    <div class="filters">
+      <select id="filter-course">
+        <option value="">Filter by Course</option>
+        <option value="Engineering">Engineering</option>
+      </select>
+
+      <select id="filter-location">
+        <option value="">Filter by Location</option>
+        <option value="Bangalore">Bangalore</option>
+      </select>
+
+      <input type="number" id="filter-rank" placeholder="Enter KCET Rank" />
+      <button onclick="applyFilters()">Apply Filters</button>
+    </div>
+
+    <!-- Results -->
+    <div id="college-list" class="card-container"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EduGuide Karnataka</p>
+  </footer>
+
+</body>
+</html>
